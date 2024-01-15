@@ -32,8 +32,20 @@ const account4 = {
   interestRate: 1,
   pin: 4444,
 };
+const account5 = {
+  owner: 'Adam Smith',
+  movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
+  interestRate: 1.2, // %
+  pin: 9999,
+};
+const account6 = {
+  owner: 'Jan Kowalski',
+  movements: [3000, -450, -400, 1000, -650, -130, 70, 1300],
+  interestRate: 1.4, // %
+  pin: 8888,
+};
 const eurToUsd = 1.1;
-const accounts = [account1, account2, account3, account4];
+const accounts = [account1, account2, account3, account4, account5, account6];
 
 // Elements
 const labelWelcome = document.querySelector('.welcome');
